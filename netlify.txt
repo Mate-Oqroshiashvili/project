@@ -1,0 +1,6 @@
+npm install -g netlify-cli
+netlify login
+cd your-angular-project
+netlify init        # first time only — links the project
+ng build
+netlify deploy --prod
